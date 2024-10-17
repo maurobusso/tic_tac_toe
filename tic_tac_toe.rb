@@ -88,38 +88,11 @@ end
 
 game = Game.new
 
-# draw
-# game.make_move('X', 0)
-# game.make_move('X', 2)
-# game.make_move('X', 7)
-# game.make_move('X', 3)
-# game.make_move('X', 5)
-
-# game.make_move('O', 1)
-# game.make_move('O', 6)
-# game.make_move('O', 8)
-# game.make_move('O', 4)
-
-# x win
-# game.make_move('X', 0)
-# game.make_move('O', 3)
-# game.make_move('X', 1)
-# game.make_move('O', 5)
-# game.make_move('X', 2)
-
-# O win
-# game.make_move('O', 0)
-# game.make_move('X', 3)
-# game.make_move('O', 1)
-# game.make_move('X', 5)
-# game.make_move('O', 2)
-
-# wrong input
-# game.make_move('F', 0)
-game.make_move('X', 3)
+game.make_move('X', 0)
+game.make_move('O', 1)
+game.make_move('X', 2)
 game.make_move('O', 3)
 game.make_move('X', 5)
-game.make_move('O', 2)
-game.make_move('O', 8)
+
 
 p game.board_state
